@@ -1,0 +1,6 @@
+.spider_7 {
+    position:absolute;
+    left: 40%;
+    top: -35%;
+    animation: spider-move-5 5s infinite;
+}
