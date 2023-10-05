@@ -6,7 +6,7 @@
     height: 100px;
     background:white;
     background-size: 100%;
-    background-repeat: no-repeat; /* Change to no-repeat to avoid repeated rainbow */
+    background-repeat: no-repeat;
     animation: rainbow 5s infinite;
     transform: rotate(90deg);
     border-radius: 50% 0% 0 50%;

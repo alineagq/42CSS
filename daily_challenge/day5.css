@@ -1,0 +1,62 @@
+.lid {
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	width: 20px;
+	height: 20px;
+	border-top: 20px solid rgb(134, 41, 17);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+.lid::before {
+	content: "";
+	position: absolute;
+	top: -60%;
+	left: -35%;
+	width: 25px;
+	height: 10px;
+	background-color: transparent;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #6b6a6a #b4b0b0 #ececec #b4b0b0;
+	border-radius: 0 0 50% 50%;
+}
+
+.glass {
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	width: 20px;
+	height: 20px;
+	border-bottom: 20px solid rgb(240, 234, 232);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+
+.glass::after
+{
+	content: "";
+	position: absolute;
+	top: 160%;
+	left: -90%;
+	width: 50px;
+	height: 50px;
+	background-color: rgb(240, 234, 232);
+	border-style: solid;
+	border-color: rgb(240, 234, 232);
+	border-radius: 50%;
+}
+
+.liquid
+{
+	position: absolute;
+	top: 55%;
+	left: 39%;
+	width: 40px;
+	height: 40px;
+	background-color: greenyellow;
+	border-style: solid;
+	border-color: rgba(117, 150, 67, 0.349);
+	border-radius: 35% 35% 50% 50%;
+}
