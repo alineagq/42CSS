@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Nightmare';
-    src: url('../assets/fonts/zreaks nfi.ttf') format('truetype');
+    src: url('./assets/fonts/zreaks nfi.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Charming';
-    src: url('../assets/fonts/Achafont.ttf') format('truetype');
+    src: url('./assets/fonts/Achafont.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Die';
-    src: url('../assets/fonts/DIEDIEDI.ttf') format('truetype');
+    src: url('./assets/fonts/DIEDIEDI.ttf') format('truetype');
 }
 
 html {
